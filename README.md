@@ -8,10 +8,14 @@ Uma aplicação backend que permite que o usuário registre e vote enquetes. Com
 
 ## Tecnologias
 
-- [Knex](https://knexjs.org)
-- [Express](https://expressjs.com)
-- [bcrypt](https://www.npmjs.com/package/bcrypt)
-- [sqlite](https://www.sqlite.org/index.html)
+- TypeScript
+- Node.js
+- Prisma
+- Zod
+- Docker
+- PostgreSQL
+- Redis
+- WebSockets
 
 ## Pré-requisitos
 
@@ -21,7 +25,7 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/rcnald/movie-notes-api.git
+   git clone https://github.com/rcnald/NLW-trilha-node.git
    # or
    gh repo clone rcnald/movie-notes-api
    ```
@@ -32,11 +36,12 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
     ```
 3. Iniciar o banco de dados
     ```
+    npm run docker
     npm run migrate
     ```
-4. Crie um arquivo .env.local na raiz do projeto como mostra no arquivo .env.example. 
+4. Crie um arquivo .env na raiz do projeto como mostra no arquivo .env.example. 
 	```
-	PORT=3333
+	DATABASE_URL="postgresql://docker:docker@localhost:5432/mydb?schema=public"
 	```
 5. Iniciar a API
     ```

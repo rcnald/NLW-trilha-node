@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx watch src/http/server.ts",
+    "docker": "docker compose up",
+    "migrate": "prisma migrate dev"
   },
   "keywords": [],
   "author": "Ronaldo Junior <ronaldomjunior05@gmail.com>",
