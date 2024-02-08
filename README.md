@@ -1,4 +1,4 @@
-# NLX Expert - trilha Node.js
+# NLW Expert - trilha Node.js
 
 Uma aplicação backend que permite que o usuário registre e vote enquetes. Como parte da trilha Node.js da NLW Expert da Rocketseat, com ênfase no aprendizado de novas tecnologias e metodologias.
 
