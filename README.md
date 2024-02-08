@@ -27,7 +27,7 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
    ```bash
    git clone https://github.com/rcnald/NLW-trilha-node.git
    # or
-   gh repo clone rcnald/movie-notes-api
+   gh repo clone rcnald/NLW-trilha-node
    ```
 2. Instalar suas dependências
    
