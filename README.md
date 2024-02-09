@@ -17,6 +17,10 @@ Uma aplicação backend que permite que o usuário registre e vote enquetes. Com
 - Redis
 - WebSockets
 
+## Objetivos
+
+Esse projeto teve como objetivo reforçar alguns conhecimentos em backend e principalmente  ter o primeiro contato com muitos tecnologias até então novas para mim, como o Prisma principal razão que me motivou a iniciar esse desafio. Claro também adquiri noções de Zod, WebSockets e Docker que até então não compreendia totalmente suas funções na aplicação
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema.
