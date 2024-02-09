@@ -1,4 +1,4 @@
-# NLX Expert - trilha Node.js
+# NLW Expert - trilha Node.js
 
 Uma aplicação backend que permite que o usuário registre e vote enquetes. Como parte da trilha Node.js da NLW Expert da Rocketseat, com ênfase no aprendizado de novas tecnologias e metodologias.
 
@@ -31,7 +31,7 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
    ```bash
    git clone https://github.com/rcnald/NLW-trilha-node.git
    # or
-   gh repo clone rcnald/movie-notes-api
+   gh repo clone rcnald/NLW-trilha-node
    ```
 2. Instalar suas dependências
    
